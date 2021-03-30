@@ -1,0 +1,1 @@
+<a href="#" class="btn btn-green" data-toggle="modal" data-target="#add-discipline-subuse-modal" data-target-table="#phase_table_{{ $phaseId }}" data-phase="{{ $phaseId }}" onclick="setPhaseForModal(this)">Agregar Subuso/Disciplina</a>
