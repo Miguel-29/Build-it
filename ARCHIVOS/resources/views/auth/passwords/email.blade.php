@@ -2,7 +2,7 @@
 @section('contenido')
 <div class="row">
    <div class="col-md-3" style="margin-top: 40px">
-      <h3>BUILD <b>IT</b></h3>
+      <h1>BUILD <b>IT</b></h1>
       <hr width="50px" color="yellow">
       <p>Crea, gerencia y ejecuta, tu proyecto de obra civil o inmoviliario, con profesionales y empresas altamente calificados.</p>
   </div>
@@ -10,7 +10,7 @@
       <div class="card">
          <img class="card-img-top br-tr-7 br-tl-7" src="{{URL::to('assets/front/images/imagenes/como-deseas-registrarte-2.jpg')}}" alt="Well, I didn't vote for you.">
             <div class="card-body">
-               <center><h1>Ingreso</h1></center>
+               <h4 class="text-center">Olvidaste contraseña</h4>
                <div class="col col-login mx-auto">
                   @if (session('status'))
                   <div class="alert alert-success" role="alert">
